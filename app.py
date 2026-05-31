@@ -559,14 +559,14 @@ course = "Python for Beginners"
 
 # dandar function 
 
-class Order:
-    def __init__(self, item, price):
-        self.item = item
-        self.price = price
+# class Order:
+#     def __init__(self, item, price):
+#         self.item = item
+#         self.price = price
 
-    def __gt__(self, order2):
-        return self.price > order2.price
+#     def __gt__(self, order2):
+#         return self.price > order2.price
 
-odr1 = Order("rise", 20)
-odr2 = Order("tea", 17)
-print(odr1 > odr2)  # Output: True
+# odr1 = Order("rise", 20)
+# odr2 = Order("tea", 17)
+# print(odr1 > odr2)  # Output: True
